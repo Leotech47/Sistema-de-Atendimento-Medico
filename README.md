@@ -1,4 +1,4 @@
-# Sistema de Atendimento Medico
+# Sistema de Atendimento Médico
 ---
 
 ## Descrição do Desafio: Sistema de Atendimento Médico
