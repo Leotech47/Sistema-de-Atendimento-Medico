@@ -35,6 +35,6 @@ Abaixo estão três testes que cobrem diferentes cenários para garantir que a l
 
 | Teste | Entrada | Saída Esperada |
 | :--- | :--- | :--- |
-| **1. Mix de Prioridades**\<br\>\<sub\>(Urgente \> Idoso \> Normal)\</sub\> | `3`\<br\>`Carlos, 55, normal`\<br\>`Beatriz, 80, urgente`\<br\>`Ana, 70, normal` | `Ordem de Atendimento: Beatriz, Ana, Carlos` |
+| **1. Mix de Prioridades**\<br\ >\<sub\>(Urgente \> Idoso \> Normal)\</sub\> | `3`\<br\>`Carlos, 55, normal`\<br\ >`Beatriz, 80, urgente`\<br\ >`Ana, 70, normal` | `Ordem de Atendimento: Beatriz, Ana, Carlos` |
 | **2. Desempate por Idade**\<br\>\<sub\>(Dois idosos com idades diferentes)\</sub\> | `4`\<br\>`Lucas, 25, normal`\<br\>`Mariana, 80, normal`\<br\>`Gustavo, 22, urgente`\<br\>`Helena, 75, normal` | `Ordem de Atendimento: Gustavo, Mariana, Helena, Lucas` |
 | **3. Desempate por Chegada**\<br\>\<sub\>(Dois urgentes com a mesma idade)\</sub\> | `4`\<br\>`Joao, 65, urgente`\<br\>`Maria, 40, normal`\<br\>`Pedro, 65, urgente`\<br\>`Sofia, 30, normal` | `Ordem de Atendimento: Joao, Pedro, Maria, Sofia` |
